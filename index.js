@@ -36,7 +36,7 @@ program
   .option(
     '-k, --kiosk [Boolean]',
     'Kiosk mode, which is fullscreen by default. On OSX this will cause the workspace to shift to a whole new one',
-    _.toBoolean, false
+    _.toBoolean, true
   )
   .option(
     '-s, --size [String]',
